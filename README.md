@@ -11,3 +11,9 @@ Sedikit fitur - fitur tambahan.
 4. Edit file **soal.php** tambah code  ini  [soal-shortcut.js](https://github.com/hasanbasri1993/candycbt-myfeature/blob/master/soal-shortcut.js "soal-shortcut.js") tepatnya di bawah *$(document).ready(function () {* kurang lebih berada di line 283
 5. Edit file **index.php** tambah code  ini [soal-shortcut.php](https://github.com/hasanbasri1993/candycbt-myfeature/blob/master/soal-shortcut.php "soal-shortcut.php") tepatnya di bawah *$(document).ready(function () {* kurang lebih berada di line 1129
 6. Save n reload di halaman siswa ujiannya. 
+
+#### FIX CEK SOAL RAGU
+Blon banyak menyelam lebih dalam, ada beberapa yang saya temukan bug di candycbt 2.3. Ini salah satunya, tidak dicek terlebih soal yg di tandai **ragu** dahulu ketika ujian selesai.
+
+Silahkan replace seluruh isi method **('#done')** dengan script dibawah ini
+[fix-cek-ragu.js](https://github.com/hasanbasri1993/candycbt-myfeature/blob/master/fix-cek-ragu.js "fix-cek-ragu.js")
