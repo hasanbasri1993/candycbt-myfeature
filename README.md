@@ -14,6 +14,5 @@ Sedikit fitur - fitur tambahan.
 
 #### FIX CEK SOAL RAGU
 Blon banyak menyelam lebih dalam, ada beberapa yang saya temukan bug di candycbt 2.3. Ini salah satunya, tidak dicek terlebih soal yg di tandai **ragu** dahulu ketika ujian selesai.
-
-Silahkan replace seluruh isi method **('#done')** dengan script dibawah ini
+Silahkan replace seluruh isi method **('#done')** dengan script ini, kurang lebih ada di line 1125.
 [fix-cek-ragu.js](https://github.com/hasanbasri1993/candycbt-myfeature/blob/master/fix-cek-ragu.js "fix-cek-ragu.js")
