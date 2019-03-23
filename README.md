@@ -2,7 +2,7 @@
 
 Sedikit fitur - fitur tambahan.
 
-####S OAL-SHORTCUT
+#### SOAL-SHORTCUT
  Siswa bisa mengerjakan soal menggunakan keyboard shortcut. Yuk ikuti bila ingin menambahkan fitur ini.
 1. Download library nya dulu di [Mousetrap](https://craig.global.ssl.fastly.net/js/mousetrap/mousetrap.min.js?a4098 "Mousetrap") kecil sekali ukurannya.
 2. Buat folder didalam plugin **mousetrap** kemudian simpan didalam folder tersebut file yg tadi sudah di download.
