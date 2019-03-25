@@ -33,5 +33,4 @@ Mousetrap.bind('e', function () {
 
 Mousetrap.bind('space', function () {
   $('input[type=checkbox]').click()
-  radaragu($id_mapel,$id_siswa,$soal[id_soal])
 });
